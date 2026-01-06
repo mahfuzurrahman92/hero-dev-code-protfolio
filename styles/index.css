@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* font size */
+.font-open-sans {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+ 
+}
+/* common style */
+.orange-color{
+    color: #FD6E0A;
+}
+/* header */
+header{
+    background-color: #FFF8F3;
+}
+/* nav */
+.logo-style{
+    color: #FD6E0A;
+}
+/* nav link */
+nav ul{
+    display: flex;
+}
+.nav-link ul li{
+    list-style: none;
+
+}
+.nav-link ul li a{
+    text-decoration: none;
+
+}
