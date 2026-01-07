@@ -30,6 +30,7 @@
     border-radius: 5px;
     font-size: 20px;
     font-weight: bold;
+    cursor: pointer;
 }
 /* .dark-1{
     color: ;
@@ -37,7 +38,11 @@
 /* header */
 header{
     background-color: #FFF8F3;
-    padding:50px;
+    /* padding:50px; */
+    padding-top: 50px;
+    background: url(../images/developer.png) , url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
 }
 .banner-logo{
     font-size: 45px;
@@ -47,7 +52,7 @@ header{
 nav{
     width: 71%;
     max-width: 1140px;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -72,4 +77,39 @@ nav ul{
     font-size: 20px;
     color: #474747;
 
+}
+
+/* banner */
+#hero{
+    border: 1px solid;
+    margin: 47px 38px 0px 223px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero-content{
+    max-width:  585px;
+   margin-bottom: 13px;
+}
+.hero-content h2{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom:13px ;
+}
+.hero-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+
+}
+.hero-content p{
+    font-size: 18px;
+    color: #757575;
+    line-height: 35px;
+}
+ #hero .hero-image img{
+    max-width: 585px;
+    vertical-align: middle;
 }
