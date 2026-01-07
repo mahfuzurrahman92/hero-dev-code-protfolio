@@ -81,7 +81,7 @@ nav ul{
 
 /* banner */
 #hero{
-    border: 1px solid;
+    /* border: 1px solid; */
     margin: 47px 38px 0px 223px;
     display: flex;
     justify-content: space-between;
@@ -112,4 +112,14 @@ nav ul{
  #hero .hero-image img{
     max-width: 585px;
     vertical-align: middle;
+}
+/* about */
+#about {
+    border: 1px solid black;
+    margin-top: 113px;
+}
+.about-container{
+    margin: 0px auto;
+    max-width: 1140px;
+    text-align: center;
 }
