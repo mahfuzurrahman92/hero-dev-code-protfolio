@@ -278,16 +278,25 @@ footer{
     #skills{
         padding-top: 50px;
     }
-    .section-heading , .about-container{
+    .section-heading , .about-container , footer , .footer-container{
         margin: 0px 10px;
     }
-    .about-container{
+    .about-container , footer{
         padding: 10px;
     }
-    .skill-box , .about-info{
+    .skill-box , .about-info , .footer-container{
         flex-direction: column;
+        /* gap: 50px; */
     }
-    .skill-card{
+    .skill-card , .footer-container{
         max-width: 100%;
     }
+    .footer-container form input[type="text"], .footer-container form textarea {
+    width: 100%;
+    padding: 18px 31px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+}
 }
