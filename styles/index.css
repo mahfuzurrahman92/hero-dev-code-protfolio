@@ -269,3 +269,22 @@ footer{
     border-radius: 5px;
  color: #757575;
 }
+
+/* responsive */
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px) {
+    #skills{
+        padding-top: 50px;
+    }
+    .section-heading{
+        margin: 0px 10px;
+    }
+    .skill-box{
+        flex-direction: column;
+    }
+    .skill-card{
+        max-width: 100%;
+    }
+}
