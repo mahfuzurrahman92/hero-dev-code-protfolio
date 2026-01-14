@@ -278,10 +278,13 @@ footer{
     #skills{
         padding-top: 50px;
     }
-    .section-heading{
+    .section-heading , .about-container{
         margin: 0px 10px;
     }
-    .skill-box{
+    .about-container{
+        padding: 10px;
+    }
+    .skill-box , .about-info{
         flex-direction: column;
     }
     .skill-card{
